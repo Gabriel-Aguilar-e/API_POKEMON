@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Pokémon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buscar Pokémon</h1>
+        <input type="text" id="pokemonName" placeholder="Introduce el nombre o ID">
+        <button onclick="buscarPokemon()">Obtener detalles</button>
+        <button onclick="buscarHabilidades()">Obtener habilidades</button>
+        <button onclick="buscarTipo()">tipo específico de Pokémon</button>
+        <button onclick="obtenerPrimeros50Pokemon()">Mostrar los primeros 50 Pokémon</button>
+        <div id="detallesPokemon" class="character-card" style="display:none;"></div>
+        <div id="listaDePokemones" class="character-card" style="display:none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
